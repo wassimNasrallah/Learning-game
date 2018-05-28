@@ -1,0 +1,56 @@
+#content {
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#play {
+	display: inline-block;
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+#play > button {
+	display: block;
+	margin: auto;
+}
+
+p.message {
+	display: none;
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+
+td {
+	border: solid 1px blue;
+	padding: 5%;
+}
+
+.image {
+	border: solid 1px blue;
+	height: 100px;
+    width: 200px;
+}
+
+.image:not(.selected) {
+	background-color: white;
+}
+.image.selected.correct {
+	background-color: blue;
+}
+
+.image.selected:not(.correct) {
+	background-color: red;
+}
+
+img {
+	display:block;
+	width: 100%;
+	height: 100%;
+}
